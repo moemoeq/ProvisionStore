@@ -21,7 +21,6 @@ package provision.app.store;
 import provision.app.store.ui.SwipeyTabs;
 import provision.app.store.ui.SwipeyTabsAdapter;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -29,7 +28,6 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.*;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 
@@ -39,6 +37,7 @@ public class MainActivity extends FragmentActivity {
 	private ViewPager mViewPager;
 	
 
+	
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

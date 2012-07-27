@@ -1,8 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_holo_light"
     android:orientation="vertical" >
-            
-</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/Object_Scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="428dp"
+                android:layout_gravity="top"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/button1"
+                    style="android:ButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_layout"
+                    android:clickable="true" >
+
+                    <ImageButton
+                        android:id="@+id/icon1"
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/network_btn" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/network"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#989898"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/button2"
+                    style="android:ButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_layout"
+                    android:clickable="true" >
+
+                    <ImageButton
+                        android:id="@+id/icon2"
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/network_pro_btn" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/network_pro"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#989898"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/button3"
+                    style="android:ButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/btn_layout"
+                    android:clickable="true" >
+
+                    <ImageButton
+                        android:id="@+id/icon3"
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/optimizer_btn" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/optimizer"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#989898"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/button4"
+                    style="android:ButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/btn_layout"
+                    android:clickable="true" >
+
+                    <ImageButton
+                        android:id="@+id/icon4"
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/optimizer_pro_btn" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/optimizer_pro"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#989898"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/button5"
+                    style="android:ButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/btn_layout"
+                    android:clickable="true" >
+
+                    <ImageButton
+                        android:id="@+id/icon5"
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/studio_btn" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/rootstudio"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

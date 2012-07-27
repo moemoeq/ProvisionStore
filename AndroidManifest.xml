@@ -2,7 +2,7 @@
     package="provision.app.store"
     android:versionCode="1"
     android:versionName="1.0" >
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-sdk
         android:minSdkVersion="10"
         android:targetSdkVersion="15" />
@@ -10,17 +10,21 @@
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
         <activity
             android:name=".MainActivity"
             android:icon="@drawable/ic_launcher"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.Light.NoTitleBar">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+         </activity>
+         <activity
+            android:name=".AppInfo"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name">
          </activity>
    
     </application>

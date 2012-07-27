@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">프로비전 스토어</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">프로비전 스토어</string>
+    <string name="network">3G/4G \n옵티마이저 Free</string>
+    <string name="network_pro">3G/4G \n옵티마이저 Pro</string>
+    <string name="optimizer">프로비전 \n옵티마이저 Free</string>
+    <string name="optimizer_pro">프로비전 \n옵티마이저 Pro</string>
+    <string name="appinfo">애플리케이션 정보</string>
+    <string name="loading">잠시만 기다려 주세요..</string>
+    <string name="prepare">준비중입니다 ^^</string>
+
+</resources>

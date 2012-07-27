@@ -29,12 +29,12 @@
             android:textSize="8pt" />
 
     </LinearLayout>
-
+
     <provision.app.store.ui.SwipeyTabs
         android:id="@+id/swipeytabs"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#484848" />
+        android:background="#909090" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
