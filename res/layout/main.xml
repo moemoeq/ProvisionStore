@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_holo_light"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="8.0dip"
+            android:background="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="13.0dip"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="8pt" />
+
+    </LinearLayout>
+
+    <provision.app.store.ui.SwipeyTabs
+        android:id="@+id/swipeytabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#484848" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
+</LinearLayout>
